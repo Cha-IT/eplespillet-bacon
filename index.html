@@ -33,6 +33,14 @@
         <main>
 
             <!-- HOVEDINNHOLD-->
+            <div id="gameOverPopup" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(0,0,0,0.9); z-index:9999; text-align:center;">
+              <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: white; padding: 40px; border-radius: 25px; display: inline-block;">
+                <h2 style="font-size:3em;">Spillet er over!</h2>
+                <img src="appo.png" alt="Game Over" style="width:60vw; max-width:700px; height:auto; display:block; margin:0 auto 30px auto;">
+                <p id="gameOverText" style="font-size:2em;"></p>
+                <button onclick="location.reload()" style="font-size:1.5em; padding:15px 40px;">Spill igjen</button>
+              </div>
+            </div>
 
         </main>
         <footer>
